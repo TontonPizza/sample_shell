@@ -3,7 +3,7 @@
 
 int 	exec_cmd(char **cmd)
 {
-	// replace ENV, treat, redirection
+	// replace ENV, treat redirections and stuff, look for built in...
 	execve(cmd[0], cmd, 0);
 	return (0);
 }
