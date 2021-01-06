@@ -15,8 +15,7 @@ int main()
 
 	g_stdout_copy = dup(1);
 	execute_cmd_pipe(cmd_pipe, -1);
-
-	// if a = b ;
+	return (0);
 }
 
 int 	exec_cmd(char **cmd)
